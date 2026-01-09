@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="./assets/icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Solway:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!--font awesome icons cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--animate css cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--aos cdn link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+
+        <!--navbar-->
+        <nav>
+            <!--logo-->
+            <img class="logo" src="./assets/logo.png" alt="logo">
+            <!--links-->
+            <ul>
+                <li class="listItem"><a class="links" href="#home">HOME</a></li>
+                <li class="listItem"><a class="links" href="#about">ABOUT</a></li>
+                <li class="listItem"><a class="links" href="#skill">SKILL</a></li>
+                <li class="listItem"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!--home-->
+        <section id="home">
+            <!--contents-->
+            <div class="homeContent">
+                <h1 class="animate__animated animate__slideInDown" id="fullname">I'm Navya <span id="lname">Basil</span></h1>
+                <p id="userData">This is my official portfolio website to describe all <br>
+                    Details and work experience in Web Development.</p>
+                <a id="download" href="./assets/NavyaBasilCV.pdf" download>DOWNLOAD CV</a>
+            </div>
+            <!--Images-->
+            <div class="homeImages">
+                <!--shape-->
+                <img id="shape" class="group1" src="./assets/shape.png" alt="shape">
+                <!--girl-->
+                <img id="girl" class="group1" src="./assets/girl.png" alt="girl">
+            </div>
+        </section>
+        <!--about-->
+        <section id="about">
+            <!--sectionHead-->
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <!--aboutBody-->
+            <div class="aboutBody">
+                <!--images-->
+                <div data-aos="fade-up-right" class="aboutImageDiv">
+                    <img class="aboutImg"
+                        src="https://www.jotform.com/blog/wp-content/uploads/2019/10/how-to-make-a-website-featured-01.png"
+                        alt="about">
+                </div>
+                <!--contents-->
+                <div class="aboutContents">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam vel sit ducimus itaque dolore eius
+                        provident ad iste praesentium voluptate corporis similique aperiam esse, iusto mollitia illo hic
+                        ea tempora. </p>
+                    <div class="aboutInfo">
+                        <div class="infoBox">
+                            <!--icon-->
+                            <i class="fa-solid fa-user"></i>
+                            <!--text-->
+                            <span class="infoText">Navya Basil</span>
+                        </div>
+                        <div class="infoBox">
+                            <!--icon-->
+                            <i class="fa-solid fa-phone"></i>
+                            <!--text-->
+                            <span class="infoText">8848394525</span>
+                        </div>
+                        <div class="infoBox">
+                            <!--icon-->
+                            <i class="fa-solid fa-message"></i>
+                            <!--text-->
+                            <span class="infoText">navyabasil2003@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--skills-->
+        <section id="skill">
+            <div class="sectionHead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <!--skillcontents-->
+            <div class="skillContents">
+                <!--progressbar-->
+                <div class="progressBars">
+                    <!--html bar-->
+                    <div class="bar">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercent">89%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="baseBar htmlBar"></div>
+                    </div>
+                    <!--css bar-->
+                    <div class="bar">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercent">84%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="baseBar cssBar"></div>
+                    </div>
+                    <!--js bar-->
+                    <div class="bar">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">81%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="baseBar jsBar"></div>
+                    </div>
+                    <!--react bar-->
+                    <div class="bar">
+                        <h3 class="barHead">REACT</h3>
+                        <span class="barPercent">83%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="baseBar reactBar"></div>
+                    </div>
+
+                </div>
+                <!--images-->
+                <div data-aos="fade-up-left" class="skillImg">
+                    <img width="120%" class="mySkill" src="./assets/skill img.jpg" alt="skill">
+                </div>
+            </div>
+        </section>
+        <!--contact-->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <!--icons-->
+            <div class="iconCollections">
+                <!--icons1-->
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/navya-basil-92a35a250/"><i
+                            class="fa-brands fa-square-linkedin brand"></i></a>
+                </div>
+                <!--icons2-->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/navya-basil-92a35a250/"><i
+                            class="fa-brands fa-square-whatsapp brand"></i></a>
+                </div>
+                <!--icons3-->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/navya-basil-92a35a250/"><i
+                            class="fa-brands fa-square-instagram brand"></i></a>
+                </div>
+                <!--icons4-->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/navya-basil-92a35a250/"><i
+                            class="fa-brands fa-square-twitter brand"></i></a>
+                </div>
+                <!--icons5-->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/navya-basil-92a35a250/"><i
+                            class="fa-brands fa-square-facebook brand"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+        <footer>
+            <p class="copyRight">
+                &copy;My Portfolio Website - December 2025, All Rights Reserved to &reg; Navya Basil
+            </p>
+            <div class="icon upArrow">
+                <a  href="#container"><i class="fa-solid fa-angle-up brand"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<!--aos cdn js-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--aos initialize-->
+<script>
+  AOS.init();
+</script>
+
+</html>
